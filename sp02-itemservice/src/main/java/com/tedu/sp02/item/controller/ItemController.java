@@ -22,7 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 public class ItemController {
 	@Autowired
 	private ItemService itemService;
-	
+//	
 	@Value("${server.port}")
 	private int port;
 	
