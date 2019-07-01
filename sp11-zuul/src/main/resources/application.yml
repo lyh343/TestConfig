@@ -12,11 +12,11 @@ eureka:
 
 #zuul:
 #  routes:
-#    item-service: /item-service/**
+#    item-service: /item-service/**   映射规则   路径为  item。service 的路径都会跳到这个服务器
 #    user-service: /user-service/**
 #    order-service: /order-service/**
 zuul:
-  retryable: true
+  retryable: true  #开启重试   添加spring-retry的依赖
   
   
 management:
